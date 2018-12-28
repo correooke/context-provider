@@ -1,9 +1,11 @@
 import React from 'react';
 
-const ConfigurationContext = React.createContext({
+const defaultValue = {
     theme: 'dark',
     lang: 'es',
     filter: { search: '' },
-});
+};
+
+const ConfigurationContext = React.createContext(defaultValue);
 
 export default ConfigurationContext;
