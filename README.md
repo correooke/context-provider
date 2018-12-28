@@ -11,4 +11,12 @@ También se puede elegir el idioma, inglés o español, sin utilizar ninguna lib
 Es una alternativa nueva, introducida en React 16.3, en reemplazo de una API legacy. 
 Permite una nueva forma de "hacer llegar" parámetros a componentes que estén profundo en el árbol de componentes. Otras posibilidades hasta el momento para hacer lo mismo eran las "render props" (component composition), los "HOC" y anteriormente "decorators" (obsoleto).
 
+## Live Demo
+
+Para poder acceder a una demo en ejecución de este ejemplo, se puede ingresar a la url:
+
+https://codesandbox.io/s/github/correooke/context-provider
+
+### Autor: Emiliano Ocariz
+
 
