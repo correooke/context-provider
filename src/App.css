@@ -21,13 +21,19 @@ h1 {
   margin-left: 20vh;
 }
 
-.app.dark {
-  background-color: rgb(77, 72, 72);
+.dark {
   color: #DDD;
 }
 
-.app.light {
+.light {
   color: rgb(77, 72, 72);
+}
+
+.app.dark {
+  background-color: rgb(77, 72, 72);
+}
+
+.app.light {
   background-color: #DDD;
 }
 
@@ -144,4 +150,20 @@ button {
 
 .configuration span {
   margin-left: 5px;
+}
+
+h2 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(130,130,130,0.2);
+}
+
+h2 .dark {
+  border-color: white;
+}
+
+h2 .light {
+  border-color: black;
 }

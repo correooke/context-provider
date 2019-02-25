@@ -61,7 +61,7 @@ class App extends Component {
                         onChangeTheme={this.onChangeTheme}/>
 
                     <Search search={this.state.search} onChangeSearch={this.onChangeSearch}/>
-                    <h2 className="results">{languages[lang].results}</h2>
+                    <h4 className="results">{languages[lang].results}</h4>
                     <List items={this.state.items}/>
                 </div>
             </ConfigurationContext.Provider>
