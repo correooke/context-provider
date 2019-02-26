@@ -152,18 +152,18 @@ button {
   margin-left: 5px;
 }
 
-h2 {
+.list-title {
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   padding: 5px;
   text-align: center;
   background-color: rgba(130,130,130,0.2);
 }
 
-h2 .dark {
-  border-color: white;
+.list-title.dark {
+  border-color: aqua;
 }
 
-h2 .light {
-  border-color: black;
+.list-title.light {
+  border-color: orange;
 }

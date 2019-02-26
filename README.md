@@ -11,6 +11,12 @@ También se puede elegir el idioma, inglés o español, sin utilizar ninguna lib
 Es una alternativa nueva, introducida en React 16.3, en reemplazo de una API legacy. 
 Permite una nueva forma de "hacer llegar" parámetros a componentes que estén profundo en el árbol de componentes. Otras posibilidades hasta el momento para hacer lo mismo eran las "render props" (component composition), los "HOC" y anteriormente "decorators" (obsoleto).
 
+## Formas de consumir el contexto
+
+- Dentro de un componente clase mediante la incorporación del campo estático "contextType" (ver ListTile)
+- Dentro de un componente función mediante <ConfigurationContext.Consumer> (ver Search)
+- Dentro de un componente mediante el hook useContext (ver Item)
+
 ## Usar un campo static 
 
 Para inicializar el contexto y poder consumirlo dentro de un class component se puede hacer uso de la sintaxis experimental de campos públicos
